@@ -1,7 +1,5 @@
 <h1 align="center">Velkommen!</h1>
 
-TEST IGEN
-
 Dette er kursushjemmesiden for Videnskabsteori og metode for cand.merc.aud. Her finder du information om kurset, undervisningsmateriale, opgaver og meget mere. 
 
 Kurset er tilrettelagt som et "flipped classroom" kursus, hvor du forventes selvstændigt at tilegne dig teori og viden inden for kursets pensum. Der er planlagt tre undervisningsgange, hvor den første er en introduktion til kurset, den midterste er en spørgetime og den sidste er eksamensforberedelse.
