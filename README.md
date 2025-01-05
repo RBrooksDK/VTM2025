@@ -1,6 +1,6 @@
 <h1 align="center">Velkommen!</h1>
 
-TEST
+TEST IGEN
 
 Dette er kursushjemmesiden for Videnskabsteori og metode for cand.merc.aud. Her finder du information om kurset, undervisningsmateriale, opgaver og meget mere. 
 
