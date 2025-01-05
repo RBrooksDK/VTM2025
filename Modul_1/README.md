@@ -53,7 +53,8 @@ Lektionen fremhæver metoder som:
 
 ### Videolektioner
 
-#### Del 1.0: Introduktion til Del 1  
+#### Del 1.0: Introduktion til Del 1
+[Transkription af video](01_transcript.md)  
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000;">
   <iframe
     src="https://drive.google.com/file/d/1-fmTEPOBSMIiTz_STRYoa8nTI1esF1q6/preview"
