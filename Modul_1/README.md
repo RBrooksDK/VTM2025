@@ -17,6 +17,7 @@ Denne lektion introducerer de grundlæggende principper for at udforme en proble
 
 **Lektionsmål:**  
 Efter lektionen forventes de studerende at kunne:
+
 - Forstå betydningen af en veldefineret problemformulering.
 - Skelne mellem forskellige typer af undersøgelsesformål (beskrivende, forklarende, forstående, etc.).
 - Anvende tragtmetoden til at udvikle en fokuseret problemstilling.
