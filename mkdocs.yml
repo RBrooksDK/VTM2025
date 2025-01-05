@@ -5,7 +5,6 @@ site_author: Richard Brooks
 site_description: Kursusside for Introduktion til videnskabsteori og metode for cand.merc.aud. på Syddansk Universitet.
 docs_dir: .
 site_dir: ../site
-
 # Repository information
 repo_name: Github
 repo_url: https://github.com/RBrooksDK/VTM2025
