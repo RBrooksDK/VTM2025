@@ -1,0 +1,151 @@
+# Project information
+site_name: Introduktion til videnskabsteori og metode for cand.merc.aud.
+site_url: https://rbrooksdk.github.io/VTM2025
+site_author: Richard Brooks
+site_description: Kursusside for Introduktion til videnskabsteori og metode for cand.merc.aud. på Syddansk Universitet.
+docs_dir: .
+site_dir: ../site
+
+# Repository information
+repo_name: Github
+repo_url: https://github.com/RBrooksDK/VTM2025
+
+# Copyright
+copyright: Copyright &copy; 2025 Richard Brooks
+
+# Configurations
+theme:
+  name: material
+  language: da
+  # custom_dir: overrides
+  favicon: figures/fav.png
+  logo: figures/logo.png
+  icon:
+    repo: fontawesome/brands/github
+    annotation: material/chevron-right-circle
+  font:
+    text: Roboto
+    code: Red Hat Mono
+  features:
+    - announce.dismiss
+    - content.code.annotate
+    - content.code.copy
+    # - content.code.select
+    # - content.footnote.tooltips
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.prune
+    # - navigation.sections
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: orange
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: light green
+      accent: default
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
+
+plugins:
+  - same-dir
+  - blog
+  - search
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - includes/mkdocs.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+extra:
+  status:
+    new: Recently added
+    deprecated: Deprecated
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+  social:
+    - icon: material/email
+      link: mailto:rib@via.dk
+    - icon: fontawesome/brands/github
+      link: https://github.com/RBrooksDK/
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/rbrooks-dk/
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Richard Brooks: https://rbrooksdk.github.io
+  - Forside: README.md
+  - Moduler:
+    - Moduler/README.md
+    - 00 Introduktion: Modul_0/README.md
+    - 01 Indledning og Problembeskrivelse: Modul_1/README.md
+    - 02 Videnskabsteori og undersøgelsesparadigmer: Modul_2/README.md
+    - 03 Undersøgelsesdesign: Modul_3/README.md
+    - 04 Klargøring og indsamling af empiri: Modul_4/README.md
+    - 05 Spørgeskema og interview: Modul_5/README.md
+  - FAQ: pages/faq.md

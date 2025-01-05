@@ -1,0 +1,77 @@
+/* Change the general background of the entire site */
+body {
+  background-color: #DDCBA4 !important;
+}
+
+/* Adjust the sidebar background (applies to both sidebars) */
+.md-sidebar {
+  background-color: #DDCBA4 !important;
+}
+
+/* Right sidebar background */
+.md-content__right {
+  background-color: #DDCBA4 !important;
+}
+
+/* Header background for both sidebars */
+.md-sidebar .md-nav__title, .md-content__right .md-nav__title {
+  background-color: #DDCBA4 !important; /* Match sidebar background */
+  color: #333333 !important; /* Slightly darker text */
+  box-shadow: none; /* Remove shadow effect, if present */
+}
+
+/* Remove border around the entire table */
+table {
+  border: none !important; /* Remove any border */
+  border-collapse: collapse; /* Ensure no gaps between table cells */
+  box-shadow: none !important; /* Remove any shadow that may appear */
+}
+
+/* Table headers */
+table th {
+  background-color: #000000 !important; /* Black header background */
+  color: #FFFFFF !important; /* White text for contrast */
+  border: 1px solid #000000; /* Border around header cells */
+}
+
+/* Table cells */
+table td {
+  background-color: #FFFFFF !important; /* White cell background */
+  color: #000000 !important; /* Black text */
+  border: 1px solid #000000; /* Thin black borders */
+}
+
+/* Alternate row styling for readability */
+table tr:nth-child(even) td {
+  background-color: #F2F2F2 !important; /* Light grey background for even rows */
+}
+
+/* Change the border color for the "question" admonition */
+.md-typeset .admonition.question,
+.md-typeset details.question {
+  border-color: #333333; /* Green border for "question" */
+  outline: none; /* Remove any focus outline */
+  box-shadow: none; /* Remove any default box shadow */
+}
+
+/* Change the background color of the title for "question" admonitions */
+.md-typeset .question > .admonition-title,
+.md-typeset .question > summary {
+  background-color: #f9f9f9; /* Light green background for title */
+  outline: none; /* Remove any focus outline */
+  box-shadow: none; /* Remove any default box shadow */
+}
+
+/* Change the icon color for "question" admonitions */
+.md-typeset .question > .admonition-title::before,
+.md-typeset .question > summary::before {
+  background-color: #333333; /* Green icon color */
+  -webkit-mask-image: var(--md-admonition-icon--question); /* Default icon */
+          mask-image: var(--md-admonition-icon--question);
+}
+
+/* Change color for collapsible indicator in "question" */
+.md-typeset details[open].question summary::after,
+.md-typeset details.question summary::after {
+  color: #333333; /* Green for collapsible indicator */
+}
